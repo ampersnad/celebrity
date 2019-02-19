@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Superhero Dating Quiz!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Superhero Dating Quiz</h1>
+
+      <p>Tell us a little bit about yourself so we can hook you up with your ideal Superhero date!</p>
+
+
+
+
+      <form id="datingParameters">
+        <ul>
+          <li>
+            <label for="age">Age</label>
+            <select id="age">
+              <option value="first">14-20</option>
+              <option value="second">21-28</option>
+              <option value="third">29-35</option>
+            </select>
+          </li>
+          <li>
+            <label for="gender">Gender</label>
+            <select id="gender">
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+            </select>
+          </li>
+          <li>
+            <label for="color">Favorite Color</label>
+            <select id="color">
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="black">Black</option>
+            </select>
+          </li>
+          <li>
+            <label for="animal">Animal</label>
+            <select id="animal">
+              <option value="cat">Cat</option>
+              <option value="dog">Dog</option>
+              <option value="snake">Snake</option>
+            </select>
+          </li>
+        </ul>
+
+        <button type="submit" class="btn-warning">Hook me up!</button>
+      </form>
+
+      <div id="superheroDate">
+        <p>Your ideal Superhero is $<span id="superheroName"></span>!</p>
+      </div>
+    </div>
+  </body>
+</html>
