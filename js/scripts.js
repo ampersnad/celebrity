@@ -11,8 +11,8 @@ $(document).ready(function() {
       // if (gender === 'male' && age < 26) {
       //   quote += 50;
       // }
-      var 
-      $('#superheroName').
+      var superhero = Spiderman
+      $('#superheroName').text(superhero);
       $("#superheroDate").show();
     }
 
